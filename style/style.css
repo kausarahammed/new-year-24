@@ -259,6 +259,11 @@ color:rgb(255, 255, 255);
     align-items:center;
     margin-bottom:64px;
   }
+  .discount-section-container{
+    width:1300px;
+    height:980px;
+    
+  }
 .functional{
     font-size:24px;
     font-weight:500px;
@@ -275,5 +280,49 @@ color:rgb(255, 255, 255);
     font-size:20px;
     font-weight:500px;
     line-height:32px;
+    display:flex;
     color:rgba(7, 2, 17, 0.6);
+    position:relative;
+    margin-bottom:40px;
+}
+.section-imge{
+width: 674.82px;
+ 
+position:absolute;
+z-index: 1;
+ display:flex;
+ justify-content:left;
+ align-items:left;
+  
+ padding-right:40px;
+ 
+
+}
+.background-solid-color{
+width: 1300px;
+height: 229px;
+background-color:red;
+border-radius:6px;
+ margin-top:480px;
+ position: relative;
+ 
+}
+.section-imge-2 img{
+    width: 50%;
+    height:50%;
+    position:absolute;
+    left:132%;
+    top: 16.3%;
+    box-sizing: border-box;
+     
+    box-shadow:rgba rgb(43, 17, 17,.05);
+    background-color:aqua;
+    z-index: -1;
+
+}
+.discound-img{
+    position: relative;
+    top:-570px;
+    left:20%;
+    z-index: 1;
 }
